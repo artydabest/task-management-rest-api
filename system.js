@@ -114,7 +114,7 @@ app.put("/tasks/:id", (req,res) =>{
     }
     if(req.body.title) 
         {
-         task.title = req.body.priority;
+         task.title = req.body.title;
         }
     if(req.body.description)
         {
